@@ -1,5 +1,5 @@
 let dataSet;
-fetch("../data.json")
+fetch("https://mizanor21.github.io/Store.p1/data.json")
     .then((res) => res.json())
     .then((data) => {
         dataSet = data;
